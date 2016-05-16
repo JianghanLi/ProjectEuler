@@ -2,7 +2,7 @@
 //replace isNumber by tmp2%tmp == 0
 //move a * a - b * c > 0 to the condition of loop
 //now: result: 2699929328 time: 585.326s
-function hi(n) {
+function li(n) {
 	start = new Date().getTime();
 	var sum = 0;
 	for (a = 1; a <= n - 3; ++a) {
